@@ -1,0 +1,34 @@
+/*
+|--------------------------------------------------------------------------
+| Containers
+|--------------------------------------------------------------------------
+*/ 
+
+.container{
+    margin: auto;
+    max-width: 80%;
+    border: 3px solid cadetblue;
+    height: 100vh;
+}
+
+.half-width{
+    margin: auto;
+    max-width: 50%;
+    border:3px solid green;
+    padding: 10px;
+}
+
+.fill-view{
+    margin: auto;
+    height: 100vh;
+    width: 100vw;
+    border: 3px solid cadetblue;
+}
+
+.max-height{
+    height: 100vh;
+}
+
+.max-width{
+    width: 100vw;
+}

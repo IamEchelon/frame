@@ -1,0 +1,35 @@
+*{
+    background-color: indianred;
+    color: $white;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+    color: $white;
+
+    // animation: pulse 5s infinite;
+
+
+    // @keyframes pulse {
+    //     0% {
+    //         background-color: #001F3F;
+    //     }
+    //     100% {
+    //         background-color: #FF4136;
+    //     }
+    
+    // }
+
+    @include media(">=phone","<tablet" ) {
+        background-color: deepskyblue;
+    }
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}

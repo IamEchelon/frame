@@ -1,0 +1,1 @@
+{"version":3,"sources":["build/scripts/ts/hello.ts"],"names":[],"mappings":"AAAA,IAAI,KAAK,GAAU,OAAO,CAAC","file":"../frame/main.js","sourcesContent":["var hello:string = \"hello\";"]}

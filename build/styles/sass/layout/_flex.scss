@@ -1,0 +1,168 @@
+/*
+|--------------------------------------------------------------------------
+| Parent Properties - Goes on Parent element 
+|--------------------------------------------------------------------------
+*/
+    
+    /*
+    |----------------------------------------------
+    | Flex Property
+    |----------------------------------------------
+    */
+
+    .flex{
+        display: flex;
+    }
+    
+    /*
+    |----------------------------------------------
+    | Flex Direction
+    |----------------------------------------------
+    */
+
+    .row{
+        flex-direction: row;
+    }
+
+    .column{
+        flex-direction: column;
+    }
+
+    .row-reverse{
+        flex-direction: row-reverse;
+    }
+
+    .column-reverse{
+        flex-direction: column-reverse;
+    }
+
+    /*
+    |----------------------------------------------
+    | Flex Wrap
+    |----------------------------------------------
+    */
+
+    .no-wrap{
+        flex-wrap: nowrap;
+    }
+
+    .wrap{
+        flex-wrap: wrap;
+    }
+
+    .wrap-reverse{
+        flex-wrap: wrap-reverse;
+    }
+
+    /*
+    |----------------------------------------------
+    | Justify Content
+    |----------------------------------------------
+    */
+
+    .align-right{
+        justify-content: flex-start;
+    }
+
+    .align-left{
+        justify-content: flex-end;
+    }
+
+    .align-center{
+        justify-content: center;
+    }
+
+    .align-to-edges{
+        justify-content: space-between;
+    }
+
+    .align-around{
+        justify-content: space-around;
+    }
+
+    /*
+    |----------------------------------------------
+    | Align Items
+    |----------------------------------------------
+    */
+
+    .align-top{
+        align-items: flex-start;
+    }
+
+    .align-bottom{
+        align-items: flex-end;
+    }
+
+    .align-middle{
+        align-items: center;
+    }
+
+    .align-baseline{
+        align-items: baseline;
+    }
+
+    .align-stretch{
+        align-items: stretch;
+    }
+
+    /*
+    |----------------------------------------------
+    | Align Content
+    |----------------------------------------------
+    */
+
+    .content-top{
+        align-content: flex-start;
+    }
+
+    .content-bottom{
+        align-content: flex-end;
+    }
+
+    .content-middle{
+        align-content: center;
+    }
+
+    .content-strech{
+        align-content: stretch;
+    }
+
+    .content-around{
+        align-content: space-around;
+    }
+
+    .content-between{
+        align-content: space-between;
+    }
+
+/*
+|--------------------------------------------------------------------------
+| Children Property - goes on inner elements within flex
+|--------------------------------------------------------------------------
+*/
+
+    /*
+    |----------------------------------------------
+    | Align Self
+    |----------------------------------------------
+    */    
+    .self-top{
+        align-self: flex-start;
+    }
+
+    .self-bottom{
+        align-self: flex-end;
+    }
+
+    .self-middle{
+        align-self: center;
+    }
+
+    .self-baseline{
+        align-self: baseline;
+    }
+
+    .self-stretch{
+        align-self: stretch;
+    }

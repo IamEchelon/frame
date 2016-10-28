@@ -1,0 +1,12 @@
+.DS_Store
+Thumbs.db
+.htaccess
+node_modules
+
+*.hqx
+*.bin
+*.exe
+*.dll
+*.deb
+*.dmg
+*.iso
