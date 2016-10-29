@@ -12,6 +12,7 @@ var sourcemaps   = require('gulp-sourcemaps');
 var plumber      = require('gulp-plumber');
 var notify       = require('gulp-notify');
 var autoprefixer = require('gulp-autoprefixer');
+var twig         = require('gulp-twig');
 
 /*
 |--------------------------------------------------------------------------
@@ -68,7 +69,7 @@ var autoprefixer = require('gulp-autoprefixer');
             // prevents errors from stopping gulp
             .pipe(plumber())
 
-            // sets prefixes for maximum browser compatiblility 
+            // browser preifixes  
             .pipe(autoprefixer())
 
             // output sourcemap
@@ -91,7 +92,7 @@ var autoprefixer = require('gulp-autoprefixer');
 
         return gulp
         
-            // location of file/files you want compiled
+            // input files
             .src('./build/scripts/ts/*.ts')
 
             // handles errors through notify
@@ -122,7 +123,7 @@ var autoprefixer = require('gulp-autoprefixer');
             // output sourcemap
             .pipe(sourcemaps.write('../js'))
 
-            // destination of compiled files 
+            // output files 
             .pipe(gulp.dest('./dist/scripts/js/'))
 
             // conntection to browser-sync
