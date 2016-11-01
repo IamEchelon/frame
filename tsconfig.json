@@ -1,0 +1,6 @@
+ {
+ "compilerOptions": {
+    // ... other config rows 
+  "typeRoots": [ "./node_modules/@types/" ]
+ }
+}
